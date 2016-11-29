@@ -1,0 +1,65 @@
+"Geographic code","Geographic name","Geographic type","Incompletely enumerated Indian reserves and Indian settlements, 2011","Population, 2011","Population, 2006","2006 adjusted population flag","Population, % change","Total private dwellings, 2011","Private dwellings occupied by usual residents, 2011","Land area in square kilometres, 2011","Population density per square kilometre, 2011","National population rank, 2011","Provincial/territorial population rank, 2011"
+"01","Canada",,T,33476688,31612897,F,5.9,14569633,13320614,8965121.4248,3.7341
+35,Ontario,,T,12851821,12160282,F,5.7,5308785,4887508,908607.6714,14.1445
+3557,"Algoma",DIS,T,115870,117461,F,-1.4,59149,50580,48810.6760,2.3739,52,21
+3529,"Brant",CDR,F,136035,125099,F,8.7,55307,52903,1093.1619,124.4418,45,17
+3541,"Bruce",CTY,F,66102,65349,F,1.2,40033,27447,4087.7570,16.1707,91,36
+3536,"Chatham-Kent",CDR,F,104075,108589,F,-4.2,46391,42992,2470.6914,42.1238,59,25
+3556,"Cochrane",DIS,F,81122,82503,F,-1.7,37242,33746,141270.4080,0.5742,77,33
+3522,"Dufferin",CTY,F,56881,54436,F,4.5,21257,20073,1486.3068,38.2700,107,41
+3518,"Durham",RM ,F,608124,561258,F,8.4,220598,213746,2523.6189,240.9730,10,5
+3534,"Elgin",CTY,F,87461,85351,F,2.5,35348,33488,1880.9045,46.4994,69,29
+3537,"Essex",CTY,F,388782,393402,F,-1.2,164733,152293,1850.7760,210.0643,21,12
+3510,"Frontenac",CTY,F,149738,143865,F,4.1,74074,62796,3787.7851,39.5318,37,15
+3553,"Greater Sudbury / Grand Sudbury",CDR,F,160376,157909,F,1.6,72479,67636,3238.0079,49.5292,33,14
+3542,"Grey",CTY,F,92568,92411,F,0.2,46481,38042,4513.2086,20.5105,67,28
+3528,"Haldimand-Norfolk",CDR,F,109118,107812,F,1.2,47364,42255,2894.8237,37.6942,57,23
+3546,"Haliburton",CTY,F,17026,16147,F,5.4,21365,7633,4071.8594,4.1814,244,48
+3524,"Halton",RM ,F,501669,439206,T,14.2,182304,179013,964.0090,520.3987,14,8
+3525,"Hamilton",CDR,F,519949,504559,F,3.1,214542,203806,1117.2286,465.3918,12,6
+3512,"Hastings",CTY,F,134934,130474,F,3.4,63014,55575,6103.4803,22.1077,46,18
+3540,"Huron",CTY,F,59100,59325,F,-0.4,28049,23637,3399.6333,17.3842,103,38
+3516,"Kawartha Lakes",CDR,F,73214,74561,F,-1.8,37161,29681,3083.0558,23.7472,86,35
+3560,"Kenora",DIS,T,57607,64419,F,-10.6,29606,21850,407213.0058,0.1415,106,40
+3538,"Lambton",CTY,T,126199,128204,F,-1.6,58243,52764,3002.0712,42.0373,49,20
+3509,"Lanark",CTY,F,65667,63785,F,3.0,31361,26832,3033.8247,21.6450,92,37
+3507,"Leeds and Grenville",UC ,F,99306,99206,F,0.1,45938,41074,3383.9216,29.3464,62,27
+3511,"Lennox and Addington",CTY,F,41824,40542,F,3.2,18295,16242,2841.1010,14.7211,139,43
+3551,"Manitoulin",DIS,F,13048,12631,T,3.3,9281,5548,3107.1134,4.1994,259,49
+3539,"Middlesex",CTY,F,439151,422333,F,4.0,195679,180278,3317.5352,132.3727,16,10
+3544,"Muskoka",DM ,T,58047,57563,F,0.8,44619,23646,3937.7556,14.7411,105,39
+3526,"Niagara",RM ,F,431346,427421,F,0.9,188877,174685,1854.2513,232.6254,17,11
+3548,"Nipissing",DIS,T,84736,84688,F,0.1,41023,36145,17103.5245,4.9543,72,31
+3514,"Northumberland",CTY,F,82126,80963,F,1.4,37226,33313,1905.3385,43.1031,75,32
+3506,"Ottawa",CDR,F,883391,812129,F,8.8,370217,353244,2790.2178,316.6029,8,4
+3532,"Oxford",CTY,F,105719,102756,F,2.9,43367,41554,2039.5572,51.8343,58,24
+3549,"Parry Sound",DIS,F,42162,40918,F,3.0,33764,18076,9322.7964,4.5225,137,42
+3521,"Peel",RM ,F,1296814,1159455,T,11.8,416850,402939,1246.8855,1040.0426,5,2
+3531,"Perth",CTY,F,75112,74344,F,1.0,30631,29400,2218.4614,33.8577,84,34
+3515,"Peterborough",CTY,F,134933,133080,F,1.4,68009,55637,3847.7682,35.0679,47,19
+3502,"Prescott and Russell",UC ,F,85381,80184,F,6.5,34400,33130,2004.4381,42.5960,70,30
+3513,"Prince Edward",CDR,F,25258,25496,F,-0.9,12397,10549,1050.4516,24.0449,192,45
+3559,"Rainy River",DIS,F,20370,21564,F,-5.5,10792,8374,15484.8331,1.3155,221,47
+3547,"Renfrew",CTY,F,101326,97545,F,3.9,48229,41761,7440.8067,13.6176,61,26
+3543,"Simcoe",CTY,F,446063,422204,F,5.7,195388,169463,4859.1648,91.7983,15,9
+3501,"Stormont, Dundas and Glengarry",UC ,T,111164,110399,F,0.7,48290,46015,3308.8401,33.5961,55,22
+3552,"Sudbury",DIS,F,21196,21851,T,-3.0,11918,9072,40205.4068,0.5272,215,46
+3558,"Thunder Bay",DIS,F,146057,149063,F,-2.0,71235,62318,103719.5124,1.4082,41,16
+3554,"Timiskaming",DIS,F,32634,33283,F,-1.9,16330,14166,13299.9162,2.4537,168,44
+3520,"Toronto",CDR,F,2615060,2503281,F,4.5,1107851,1047877,630.2147,4149.4748,1,1
+3530,"Waterloo",RM ,F,507096,478121,F,6.1,202121,191599,1368.9360,370.4308,13,7
+3523,"Wellington",CTY,F,208360,200425,F,4.0,85510,79072,2660.4640,78.3172,28,13
+3519,"York",RM ,F,1032524,892712,F,15.7,334447,323543,1762.1654,585.9405,7,3
+
+Note:
+"Incompletely enumerated Indian reserves and Indian settlements, 2011","T = excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements."
+"Incompletely enumerated Indian reserves and Indian settlements, 2006","T = excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements."
+"2006 adjusted population flag","T = adjusted figure due to boundary change."
+"2006 adjusted total private dwellings flag","T = adjusted figure due to boundary change."
+"2006 adjusted private dwellings occupied by usual residents flag","T = adjusted figure due to boundary change."
+"For further information, refer to: http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Notes-eng.cfm."
+
+"Source: Statistics Canada, 2011 Census of Population."
+"How to cite: Statistics Canada. 2012. Population and dwelling counts, for Canada, provinces and territories, and census divisions, 2011 and 2006 censuses (table). Population and Dwelling Count Highlight Tables. 2011 Census."
+"Statistics Canada Catalogue no. 98-310-XWE2011002. Released February 8, 2012."
+"http://www12.statcan.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/File.cfm?T=702&SR=1&RPP=9999&PR=35&CMA=0&S=51&O=A&LANG=Eng&OFT=CSV (accessed November 24, 2016)"
