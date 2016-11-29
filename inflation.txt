@@ -1,6 +1,6 @@
 Conversion rate from $100 of 2016 CDN, calculated using http://www.bankofcanada.ca/rates/related/inflation-calculator/
 
-Year,BRate
+Year,CPI-PIndex
 1999,137.78
 2000,134.06
 2001,131.60
