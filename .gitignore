@@ -6,5 +6,8 @@ otf_granting_data_since_april_1_2015.csv
 # Jupyter backups
 .ipynb_checkpoints/
 
+# Census boundary files
+can_gis/
+
 # Experimental ipynbs
 Jupyter Interactors.ipynb
