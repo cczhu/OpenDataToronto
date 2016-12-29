@@ -3,5 +3,11 @@ otf_catchment_area-census_division_concordance_file.csv
 otf_granting_data_fiscal_year_2000-2015_20150717.csv
 otf_granting_data_since_april_1_2015.csv
 
+# Canada GIS file
+.can_gis/
+
 # Jupyter backups
 .ipynb_checkpoints/
+
+# Experimental ipynbs
+Jupyter Interactors.ipynb
