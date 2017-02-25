@@ -1,12 +1,10 @@
-<h1>Introduction</h1>
-
 This repo houses my analysis work for the [Open Data Toronto meetup](https://www.meetup.com/opentoronto/).  All analysis was done in the Jupyter notebook (ipynb) environment.  A list of packages imported, and their versions, can be found in the root directory README.md.  The full analysis of each dataset can be viewed in the subfolders of the repo.  GitHub's ipynb viewer may not allow interactive plots to function, so I include [nbviewer](https://nbviewer.jupyter.org/) links to each project below.
 
 You'll find short abstracts on all projects, listed in reverse chronological order, as well as a pretty plot generated during each project.  Additionally, I link to the associated meetup page of each project, where others have posted their analyses.
 
 <h1>23/2/2017 - MyDem0cracy</h1>
 
-[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20%28Open%20Data%20Toronto%202017-2-23%29.ipynb)<br/><br/>
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20%28Open%20Data%20Toronto%202017-2-23%29.ipynb)<br/>
 [Meetup Page](https://www.meetup.com/opentoronto/events/236673506/)
 
 The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (note the replacement of "o" by "0") was produced by a group of concerned citizens as a complementary survey to the [controversial](http://www.cbc.ca/news/politics/mydemocracy-survey-results-electoral-reform-1.3950671) [MyDemocracy.ca](http://news.gc.ca/web/article-en.do?nid=1165179) survey by the Government of Canada.  The survey solicits freeform comments from participants, which are then posted to let subsequent participants vote ("agree", "disagree" or "neutral") on the comments.  I investigate the consensus opinion arising from these comments, and attempt to determine clusters of voters with similar opinions.
@@ -21,7 +19,7 @@ Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy 
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
 
-[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataTorontoOTF/blob/master/Ontario%20Trillium%20Foundation%20Grants%20%28Open%20Data%20Toronto%202016-11-24%29.ipynb)<br/><br/>
+[ipynb](https://github.com/cczhu/OpenDataToronto/blob/master/OTF/Ontario%20Trillium%20Foundation%20Grants%20(Open%20Data%20Toronto%202016-11-24).ipynb)<br/>
 [Meetup Page](https://www.meetup.com/opentoronto/events/235293778/)
 
 The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the Ontario provincial government that allocates more than $136 million annually in social/community program funding annually province-wide.  In accordance with the Ontario government's Open Data Directive, OTF provides data on grant applications over the last two decades on their [open data page](http://www.otf.ca/open).  I perform an exploratory analysis on this data, examining how aggregate, per-capita and per-project funding, and how it is divided into different project areas, have changed during that time.  I also break down funding for different populations served, and examine how funding is divided between Ontario's geographic regions.
