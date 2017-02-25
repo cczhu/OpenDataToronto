@@ -1,13 +1,15 @@
 # OTF's files
-otf_catchment_area-census_division_concordance_file.csv
-otf_granting_data_fiscal_year_2000-2015_20150717.csv
-otf_granting_data_since_april_1_2015.csv
+OTF/otf_catchment_area-census_division_concordance_file.csv
+OTF/otf_granting_data_fiscal_year_2000-2015_20150717.csv
+OTF/otf_granting_data_since_april_1_2015.csv
+
+# 
 
 # Jupyter backups
 .ipynb_checkpoints/
 
 # Census boundary files
-can_gis/
+OTF/can_gis/
 
 # Experimental ipynbs
-Jupyter Interactors.ipynb
+OTF/Jupyter Interactors.ipynb
