@@ -8,7 +8,18 @@ You'll find short abstracts on all projects, listed in reverse chronological ord
 
 <h1>23/2/2017 - MyDem0cracy</h1>
 
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20%28Open%20Data%20Toronto%202017-2-23%29.ipynb)
+[Meetup Page](https://www.meetup.com/opentoronto/events/236673506/)
 
+The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (note the replacement of "o" by "0") was produced by a group of concerned citizens as a complementary survey to the [controversial](http://www.cbc.ca/news/politics/mydemocracy-survey-results-electoral-reform-1.3950671) [MyDemocracy.ca](http://news.gc.ca/web/article-en.do?nid=1165179) survey by the Government of Canada.  The survey solicits freeform comments from participants, which are then posted to let subsequent participants vote ("agree", "disagree" or "neutral") on the comments.  I investigate the consensus opinion arising from these comments, and attempt to determine clusters of voters with similar opinions.
+
+<p align="center">
+    <a href="images/mydem0cracy_stdevvsmean.html">
+    <img border="0" alt="OTF" src="images/mydem0cracy.png" width="600" height="400">
+    </a>
+</p>
+
+Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
 
@@ -19,7 +30,7 @@ The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the 
 
 <p align="center">
     <a href="images/otf_ontario.html">
-    <img border="0" alt="OTF" src="otf_ontario.png" width="500" height="500">
+    <img border="0" alt="OTF" src="images/otf_ontario.png" width="600" height="600">
     </a>
 </p>
 
