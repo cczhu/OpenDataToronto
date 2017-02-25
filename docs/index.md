@@ -19,7 +19,7 @@ Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy 
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
 
-[ipynb](https://github.com/cczhu/OpenDataToronto/blob/master/OTF/Ontario%20Trillium%20Foundation%20Grants%20(Open%20Data%20Toronto%202016-11-24).ipynb)<br/>
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/OTF/Ontario%20Trillium%20Foundation%20Grants%20%28Open%20Data%20Toronto%202016-11-24%29.ipynb)<br/>
 [Meetup Page](https://www.meetup.com/opentoronto/events/235293778/)
 
 The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the Ontario provincial government that allocates more than $136 million annually in social/community program funding annually province-wide.  In accordance with the Ontario government's Open Data Directive, OTF provides data on grant applications over the last two decades on their [open data page](http://www.otf.ca/open).  I perform an exploratory analysis on this data, examining how aggregate, per-capita and per-project funding, and how it is divided into different project areas, have changed during that time.  I also break down funding for different populations served, and examine how funding is divided between Ontario's geographic regions.
