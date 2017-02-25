@@ -17,7 +17,7 @@ The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (not
     </a>
 </p>
 
-Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
+Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click [here](images/mydem0cracy_stdevvsmean.html) or on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
 
@@ -32,4 +32,4 @@ The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the 
     </a>
 </p>
 
-Figure: Per-capita OTF Spending in Ontario's census geographic regions.  Brighter and more orange colours represent higher funding per capita.  Populations are taken from 2011 census, and annual funding is averaged from its FY 2010 to 2016 values.  Click on the picture to go to the interactive version, where you can hover the mouse over a census area to see its name, population, number of OTF grants given per year, funding per year, median funding per project, and funding per capita (all OTF values are also averaged from FY 2010 to 2016).
+Figure: Per-capita OTF Spending in Ontario's census geographic regions.  Brighter and more orange colours represent higher funding per capita.  Populations are taken from 2011 census, and annual funding is averaged from its FY 2010 to 2016 values.  Click [here](images/otf_ontario.html) or on the picture to go to the interactive version, where you can hover the mouse over a census area to see its name, population, number of OTF grants given per year, funding per year, median funding per project, and funding per capita (all OTF values are also averaged from FY 2010 to 2016).
