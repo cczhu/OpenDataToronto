@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/cczhu/OpenDataToronto/edit
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[Biggles](cczhu.github.io/mydem0cracy_stdevvsmean.html) 
+[Biggles](mydem0cracy_stdevvsmean.html) 
 
 ### Markdown
 
