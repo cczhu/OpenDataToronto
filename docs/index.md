@@ -1,39 +1,26 @@
-## THIS IS WRITTEN IN MARKDOWN!
+<h1>Introduction</h1>
 
-You can use the [editor on GitHub](https://github.com/cczhu/OpenDataToronto/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This repo houses my analysis work for the [Open Data Toronto meetup](https://www.meetup.com/opentoronto/).  All analysis was done in the Jupyter notebook (ipynb) environment.  A list of packages imported, and their versions, can be found in the root directory README.md.  The full analysis of each dataset can be viewed in the subfolders of the repo.  GitHub's ipynb viewer may not allow interactive plots to function, so I include [nbviewer](https://nbviewer.jupyter.org/) links to each project below.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You'll find short abstracts on all projects, listed in reverse chronological order, as well as a pretty plot generated during each project.  Additionally, I link to the associated meetup page of each project, where others have posted their analyses.
 
 [Biggles](mydem0cracy_stdevvsmean.html) 
 
-### Markdown
+<h1>23/2/2017 - MyDem0cracy</h1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<h1>24/11/2016 - Ontario Trillium Fund</h1>
 
-- Bulleted
-- List
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataTorontoOTF/blob/master/Ontario%20Trillium%20Foundation%20Grants%20%28Open%20Data%20Toronto%202016-11-24%29.ipynb)
+[Meetup Page](https://www.meetup.com/opentoronto/events/235293778/)
 
-1. Numbered
-2. List
+The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the Ontario provincial government that allocates more than $136 million annually in social/community program funding annually province-wide.  In accordance with the Ontario government's Open Data Directive, OTF provides data on grant applications over the last two decades on their [open data page](http://www.otf.ca/open).  I perform an exploratory analysis on this data, examining how aggregate, per-capita and per-project funding, and how it is divided into different project areas, have changed during that time.  I also break down funding for different populations served, and examine how funding is divided between Ontario's geographic regions.
 
-**Bold** and _Italic_ and `Code` text
+<p align="center">
+    <a href="images/otf_ontario.html">
+    <img border="0" alt="OTF" src="otf_ontario.png" width="500" height="500">
+    </a>
+</p>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cczhu/OpenDataToronto/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Figure: Per-capita OTF Spending in Ontario's census geographic regions.  Brighter and more orange colours represent higher funding per capita.  Populations are taken from 2011 census, and annual funding is averaged from its FY 2010 to 2016 values.  Click on the picture to go to the interactive version, where you can hover the mouse over a census area to see its name, population, number of OTF grants given per year, funding per year, median funding per project, and funding per capita (all OTF values are also averaged from FY 2010 to 2016).
