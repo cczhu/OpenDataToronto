@@ -1,6 +1,6 @@
-This repo houses my analysis work for the [Open Data Toronto meetup](https://www.meetup.com/opentoronto/).  All analysis was done in the Jupyter notebook (ipynb) environment.  A list of packages imported, and their versions, can be found in the root directory README.md.  The full analysis of each dataset can be viewed in the subfolders of the repo.  GitHub's ipynb viewer may not allow interactive plots to function, so I include [nbviewer](https://nbviewer.jupyter.org/) links to each project below.
+This repo houses my analysis work for the [Open Toronto open data book club meetup](https://www.meetup.com/opentoronto/).  All analysis was done in Jupyter notebooks, and a list of package requirements can be found in the repo README.md.  The full analysis of each dataset can be viewed in the subfolders of the repo.  GitHub's ipynb viewer doesn't seem to allow interactive plots to function, so please use the [nbviewer](https://nbviewer.jupyter.org/) links to each project below.
 
-You'll find short abstracts on all projects, listed in reverse chronological order, as well as a pretty plot generated during each project.  Additionally, I link to the associated meetup page of each project, where others have posted their analyses.
+You'll find short abstracts on all projects, listed in reverse chronological order, as well as a pretty plot generated during each project.
 
 <h1>23/2/2017 - MyDem0cracy</h1>
 
@@ -15,7 +15,11 @@ The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (not
     </a>
 </p>
 
-Figure: Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click [here](images/mydem0cracy_stdevvsmean.html) or on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
+<center>
+<br />
+Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click [here](images/mydem0cracy_stdevvsmean.html) or on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
+<br />
+</center>
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
 
@@ -30,4 +34,8 @@ The [Ontario Trillium Foundation (OTF)](http://www.otf.ca/) is an agency of the 
     </a>
 </p>
 
-Figure: Per-capita OTF Spending in Ontario's census geographic regions.  Brighter and more orange colours represent higher funding per capita.  Populations are taken from 2011 census, and annual funding is averaged from its FY 2010 to 2016 values.  Click [here](images/otf_ontario.html) or on the picture to go to the interactive version, where you can hover the mouse over a census area to see its name, population, number of OTF grants given per year, funding per year, median funding per project, and funding per capita (all OTF values are also averaged from FY 2010 to 2016).
+<center>
+<br />
+Per-capita OTF Spending in Ontario's census geographic regions.  Brighter and more orange colours represent higher funding per capita.  Populations are taken from 2011 census, and annual funding is averaged from its FY 2010 to 2016 values.  Click [here](images/otf_ontario.html) or on the picture to go to the interactive version, where you can hover the mouse over a census area to see its name, population, number of OTF grants given per year, funding per year, median funding per project, and funding per capita (all OTF values are also averaged from FY 2010 to 2016).
+<br />
+</center>

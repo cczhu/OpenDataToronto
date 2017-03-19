@@ -1,0 +1,119 @@
+0 There is less incentive to vote strategically in proportional systems.
+1 First-past-the-post encourages strategic voting.
+2 I feel that politically similar parties should have to merge in order to gain a more proportional percentage of seats.
+3 Between 2011 and 2015, I felt that the Liberal's underrepresentation in parliament was unfair.
+4 If Canada reforms it's electoral system, it should be to one less susceptible to strategic voting.
+5 I think Canada would be worse off if we had only two parties.
+6 A party that receives less than 50% of the vote does not have a mandate to form a majority government.
+7 Under a system of proportional representation, parties have less to gain by engaging in voter suppression of their political opponents.
+8 Those who support overrepresented parties are more likely to oppose electoral reform.
+9 Those who support underrepresented parties are more likely to support electoral reform.
+10 I am under 40 years old.
+11 Maintaining the anonymity of the secret ballot is more important to me than the convenience of voting online.
+12 I have written to one or many members of parliament regarding my opinions on electoral reform.
+13 I watch parliament's question period regularly.
+14 I have read the entirety of the report of the Special committee on Electoral Reform.
+15 I would like ballots to be more expressive than "select one candidate".
+16 If given the choice, I would vote sincerely. But under our current system, I feel compelled to vote strategically.
+17 I can explain specifically how the Gallagher Index works.
+18 I understand what the Gallagher Index does.
+19 I am more interested by an individual's beliefs than by their identity.
+20 I am more concerned with federal-level issues than with issues of my particular riding.
+21 I consider myself as a person with a disability.
+22 Schools need to teach more critical thought, so citizens may more closely examine political platforms/arguments & hold officials to account
+23 Political education is an important element in schooling
+24 I believe our current electoral system has helped making our democracy one of the most stable in the world.
+25 I often educate myself on my local candidates.
+26 I usually just vote based on party.
+27 I have the time and interest to research many candidates.
+28 I am more concerned with my province's interests than my specific district's.
+29 Sometimes I disagree with a candidate or party so much that I will vote for anyone else.
+30 I like to educate myself on my local candidates.
+31 It's important to me to deal with an MP from a national party that I support on local and personal issues.
+32 I want to be able to vote against candidates I disagree with.
+33 Region-specific issues and perspectives would be obscured by larger districts.
+34 I think electoral reform should be decided by a randomly selected citizens' assembly.
+35 I think all parties have self-interest biases.
+36 I think a "citizens' assembly" is a good way to represent the whole electorate.
+37 I think we should consider Score/Approval voting systems (also known as "range voting" systems).
+38 Many Canadians don’t vote because they feel a sense of apathy towards their government and politics in general.
+39 It’s important to increase voter education.
+40 It is important to support increased youth participation in politics.
+41 Voting is too hard for people with disabilities.
+42 I prefer to vote based on my principles, rather than try to vote strategically to minimize downside effects of my vote.
+43 I always vote.
+44 I think mandatory voting should be implemented.
+45 I think there should be incentives for voting.
+46 I think there should be a voting holiday.
+47 I always feel like my vote is important.
+48 My vote is wasted under the current electoral system and so I often choose not to vote.
+49 We need better educational systems in place to inform voters on important issues.
+50 It’s important that the Canadian government collect and assess the political opinions of Canadians in an open and transparent manner before making important decisions.
+51 I am pleased with the current electoral system.
+52 Our current electoral system has served Canadians well for decades and is efficient.
+53 The current electoral system results in more stable governance (ie: more majority governments which can serve a full term).
+
+54 If we used a system with proportional representation, the opinions would be too strongly divided and nothing would ever get done.
+55 I would like Canada to implement an online voting system.
+56 The current electoral system strengthens the dominance of the two major political parties, the Conservative Party and the Liberal Party.
+
+57 Electoral reform is a divisive issue and I don’t think a referendum is required in order to better gauge the true opinions of Canadians.
+58 I wouldn’t trust online voting systems and would prefer to cast my ballot in person.
+59 The government needs to engage in more discussions with all citizens.
+60 It is important to achieve broad support of all Canadians before moving forward with procedures for electoral reform.
+61 The current electoral system leads to increased voter apathy and poor participation.
+62 I would like to vote for a non-partisan MP, but feel like my vote would be wasted.
+63 I believe a party’s share of seats in the House of Commons should reflect its share of the popular vote.
+
+64 The current electoral system does not represent voter preferences accurately and should be changed.
+65 The voting process is intimidating. I don’t even understand why I would vote for different candidates.
+
+66 I am worried about security issues with online voting.
+67 The allocation of seats in the House of Commons should better reflect the popular vote.
+
+68 For online voting, I think we should base our decisions & timelines on the professional opinions of those in the digital security community.
+69 I think we can and should come up with a cheaper and better way to run referendum-like national gut-checks.
+70 I think a system involving proportional representation for perhaps 10% of parliamentary seats could be an improvement.
+71 I think a healthy system could involve giving groups too small to gain a voice (for example, Northern and Aboriginal communities), more seats than their small proportion.
+72 I have a good understanding of alternative electoral systems.
+73 I can explain the way our current electoral system works to a five year old.
+74 The voting age should be lowered to 16.
+75 I think my vote is wasted under the current electoral system.
+76 Proportional representation will reduce hyper-partisanship and promote greater collaboration and cooperation between parties.
+77 Proportional representation ensures support of government policies by the broadest segment of Canadians- at the very least, a true majority
+78 Proportional representation will reduce wild policy swings and result in more long-lasting policies with a view to the future.
+79 Proportional voting systems can be designed to provide both local representation and a Parliament that reflects Canadian diversity.
+80 Governments are not accountable when most votes cast elect no-one and there are so many "safe" ridings under our current FPTP system
+81 Winner-take-all systems (such as FPTP)reward regional parties, whose support is concentrated within a geographical area, with extra seats.
+82 Fairness should be a high priority in any voting system.
+83 Given how over budget Phoenix Pay is, as one example, the federal government probably isn't ready to correctly implement online voting.
+84 There should not be a huge variance in the number of votes that each party needs to secure a seat in Parliament. All votes should be equal.
+85 Negotiations between parties to achieve a coalition government are more transparent than those between various factions in big tent parties.
+86 Big tent parties may have a diverse membership but all policy-making is filtered to achieve party goals.
+87 Voters want to be able to choose parties that offer distinct choices.  Under FPTP, apparent differences are too often only cosmetic.
+88 Parties should be a tool to help MPs be effective representatives of their constituents but often see MPs only as their representatives.
+89 A single MP cannot represent the government policy concerns of every constituent in his or her riding.
+90 At present, no online voting system is immune to hacking, and therefore, is too risky for elections that matter.
+91 MPs in multi-member proportional ridings are more accountable to constituents because they face greater competition to be elected.
+92 I'd rather have a MP in multi-member proportional riding that I voted for than a MP in a single-member riding that I did not vote for.
+93 Innovative ideas or proposals often seem radical or extreme until adopted by the mainstream.
+94 Minority rights must be protected by Parliament.
+95 Ranked ballots provide real choices for voters if they are used in a proportional voting system.
+96 Winner-take-all voting systems (such as FPTP) encourage "dog-whistle" politics and pandering to swing voters with short-sighted policies.
+97 I think we need to develop a proper national "digital identity system" before we can consider implementing online voting.
+98 I understand how single transferable vote (STV) works.
+99 I understand how mixed-member proportional representation works.
+100 I want a fairer system than FPTP but not one in which MPs are appointed from a party list not selected by the public.
+101 I live in an urban (not a rural) area
+102 Ballots should just show the candidates' names, not their parties, like they used to
+103 It's unacceptable to compromise on either the secret ballot or the verifiability of elections even if it would making voting more convenient
+104 I find it confuses the conversation when people misuse "ranked ballots" as a euphemism for "instant runoff voting"
+105 The party I most recently supported federally would benefit from the reform I would like to see.
+106 'Representative democracies' without PR often don't have real democracy, as parties can take complete control with a minority of the vote
+107 It should always be clear which party is accountable for decisions made by government, even if this means decisions are only made by 1 party
+108 Mandatory voting requirements will reduce the incentive for parties to  pander to extremist values
+109 There should be parties in Parliament that represent the views of all Canadians, even if some are radical or extreme.
+110 I think many of the comments here are difficult to vote on.
+111 I am eligible to vote in Canada.
+112 I think that a good consultation tool/process, be it digital or in-person, should allow participants (not just moderators) to shape conversation.
+113 Our current electoral voting system can be improved in a way that can better represent Canada's diversity of opinions.
