@@ -17,7 +17,7 @@ The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (not
 
 <center>
 <br />
-Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  Click [here](images/mydem0cracy_stdevvsmean.html) or on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
+Plot of vote standard deviation vs. vote arithmetic mean of MyDem0cracy Canadian electoral reform survey comments. Marker sizes represent the total number of votes a comment received, while colour represents the response fraction, the percentage of people who visitied MyDemo0cracy.ca since the question was posted that voted on the comment.  The dashed grey line represents the largest standard deviation value for a given mean.  Click [here](images/mydem0cracy_stdevvsmean.html) or on the picture to go to the interactive version, where you can hover the mouse over a marker to read the text of its comment and the number of agree, disagree and neutral votes for it.
 </center>
 
 <h1>24/11/2016 - Ontario Trillium Fund</h1>
