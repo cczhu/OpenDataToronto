@@ -4,6 +4,9 @@ You'll find short abstracts on all projects, listed in reverse chronological ord
 
 <h1>20/4/2017 - Toronto City Sidewalk Inventory</h1>
 
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/SidewalkInventory/Toronto%20Sidewalk%20Inventory%20(Open%20Data%202017-4-20).ipynb)<br/>
+[Meetup Page](https://www.meetup.com/opentoronto/events/236673636/)
+
 The [Toronto Sidewalk Inventory](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=3cdcfb292f426410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD) is a geospatial dataset that gives the availability of sidewalks along Toronto's transportation corridors.  I plot a map of these sidewalks, and investigate the correlation between lack of sidewalks along the roads of a neighbourhood with its population density and median household income.
 
 <p align="center">
@@ -19,7 +22,7 @@ The [Toronto Sidewalk Inventory](http://www1.toronto.ca/wps/portal/contentonly?v
 
 <h1>23/2/2017 - MyDem0cracy</h1>
 
-[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20%28Open%20Data%20Toronto%202017-2-23%29.ipynb)<br/>
+[ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20(Open%20Toronto%202017-2-23).ipynb)<br/>
 [Meetup Page](https://www.meetup.com/opentoronto/events/236673506/)
 
 The [MyDem0cracy](https://mydem0cracy.ca/) Canadian electoral reform survey (note the replacement of "o" by "0") was produced by a group of concerned citizens as a complementary survey to the [controversial](http://www.cbc.ca/news/politics/mydemocracy-survey-results-electoral-reform-1.3950671) [MyDemocracy.ca](http://news.gc.ca/web/article-en.do?nid=1165179) survey by the Government of Canada.  The survey solicits freeform comments from participants, which are then posted to let subsequent participants vote ("agree", "disagree" or "neutral") on the comments.  I investigate the consensus opinion arising from these comments, and attempt to determine clusters of voters with similar opinions.
