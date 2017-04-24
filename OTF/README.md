@@ -2,6 +2,17 @@
 
 This repo stores my Jupyter notebook-based exploratory data analysis of Ontario Trillium Foundation (OTF) social program grants dispensed between 1999 and 2016.  The notebook doesn't plot correctly on native GitHub, but web-viewers can see it on [NBViewer](https://nbviewer.jupyter.org/github/cczhu/OpenDataTorontoOTF/blob/master/Ontario%20Trillium%20Foundation%20Grants%20%28Open%20Data%20Toronto%202016-11-24%29.ipynb).
 
+All analysis was performed in Python (inside the Jupyter notebooks environment), and required the following packages:
+
+bokeh==0.12.3 <br>
+geopy==1.11.0 <br>
+matplotlib==1.5.3 <br>
+numpy==1.12.0 <br>
+pandas==0.19.1 <br>
+plotly==1.12.12 <br>
+scikit-learn==0.18.1 <br>
+scipy==0.18.1 <br>
+seaborn==0.7.1
 
 The OTF data comes from the following files:
 
