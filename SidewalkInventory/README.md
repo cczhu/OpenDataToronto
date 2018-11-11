@@ -1,6 +1,9 @@
-<h1>Exploratory Data Analysis of City of Toronto Sidewalk Inventory</h1>
+<h1>City of Toronto Sidewalk Inventory</h1>
 
-See ipynb for details.  Python modules used:
+[Analysis ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/SidewalkInventory/Toronto%20Sidewalk%20Inventory%20%28Open%20Data%202017-4-20%29.ipynb)<br/>
+[Meetup Page](https://www.meetup.com/opentoronto/events/236673636/)
+
+<h3>Requirements</h3>
 
 jupyter==1.0.0 <br>
 numpy==1.12.1 <br>
@@ -13,18 +16,18 @@ pyproj==1.9.5.1 <br>
 shapely==1.5.17.post1 <br>
 fiona==1.7.5
 
-Datasets used:
+<h3>Datasets</h3>
 
-[Toronto Sidewalk Inventory](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=3cdcfb292f426410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
+[Toronto Sidewalk Inventory](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#3763d352-5f0a-4385-4cec-f255d4860ea5)
 
-[Toronto Centreline (TCL) roadway shapefile](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9acb5f9cd70bb210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
+[Toronto Centreline (TCL) roadway shapefile](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#e4ec3384-056f-aa59-70f7-9ad7706f31a3)
 
-[Toronto City Wards shapefile](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=b1533f0aacaaa210VgnVCM1000006cd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
+[Toronto City Wards shapefile](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#29b6fadf-0bd6-2af9-4a8c-8c41da285ad7)
 
-[Ward Profiles](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=71d9c7e6e34b6410VgnVCM10000071d60f89RCRD)
+[Ward Profiles](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#0dcc4b06-b0e8-3db3-80d0-a10aed2a0312)
 
-[Toronto Neighbourhoods shapefile](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=04b489fe9c18b210VgnVCM1000003dd60f89RCRD) (currently not directly used)
+[Toronto Neighbourhoods shapefile](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#a45bd45a-ede8-730e-1abc-93105b2c439f) (currently not directly used)
 
-[Toronto Former Municipal Boundaries shapefile](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a4720ad4e4030410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
+[Toronto Former Municipal Boundaries shapefile](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#530bd520-c8b6-7613-a6a5-544a073dadec)
 
-[Toronto Zoning By-law shapefile](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=5a9923e69b4a6410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
+[Toronto Zoning By-law shapefile](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#8fef077c-9a14-e922-0c57-f390cd68b8a0)

@@ -1,8 +1,9 @@
-<h1>Exploratory Data Analysis of MyDem0cracy.ca Canadian Election Reform Survey</h1>
+<h1>MyDem0cracy.ca Canadian Election Reform Survey</h1>
 
-This repo stores my Jupyter notebook-based exploratory data analysis of the MyDem0cracy.ca Canadian Election Reform Survey.  The notebook doesn't plot correctly on native GitHub, but web-viewers can see it on [NBViewer](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20(Open%20Toronto%202017-2-23).ipynb).
+[Analysis ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/MyDem0cracy/MyDemocracy%20%28Open%20Toronto%202017-2-23%29.ipynb)<br/>
+[Meetup Page](https://www.meetup.com/opentoronto/events/236673506/)
 
-Requirements:
+<h3>Requirements</h3>
 
 matplotlib==1.5.3 <br>
 numpy==1.12.0 <br>
