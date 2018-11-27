@@ -1,8 +1,45 @@
 Welcome to OpenDataToronto!  This repo repo houses my analysis of city and
-provincial open datasets for the [Open Toronto open data book club
-meetup](https://www.meetup.com/opentoronto/).  All analysis was done in Jupyter
-notebooks, and a list of package requirements can be found in the README.md
-under each project's folder.
+provincial open datasets, many of which were for the [Open Toronto open data
+book club meetup](https://www.meetup.com/opentoronto/).  All analysis was done
+in Jupyter notebooks, and a list of package requirements can be found in the
+README.md under each project's folder.
+
+<h1>27/11/2018 - Toronto Bikeshare Trips July - December 2016</h1> 
+
+[Analysis ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/BikeShare/BikeShare%20DashApp%20Data%20Munging.ipynb)<br/>
+
+The Toronto [Q3 and Q4 bikeshare ridedata](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#343faeaa-c920-57d6-6a75-969181b6cbde)
+captures (anonymized) trips taken with the Toronto bikeshare system between July
+1st and December 31st, 2016.  The data includes the trip start and end times,
+duration, and origin and destination stations.
+
+<p align="center">
+    <a href="images/toronto_bikeshare_hours.png">
+    <img border="0" alt="OTF" src="images/toronto_bikeshare_hours.png" width="600" height="491">
+    </a>
+</p>
+
+<center>
+<br />
+<i>Plot of the number of rides per hour for the average weekday and weekend,
+for the Toronto bikeshare system in Q3-Q4 2016.  Rides are subdivided into
+bikeshare members and casual riders (those without a bikeshare app
+account).  Weekdays see an increase in the number of member riders during
+rush hour, and weekends a general increase in leisure rides.</i>
+</center>
+
+<iframe width="600" height="500" frameborder="0" scrolling="no" src="//plot.ly/~ccfs/6.embed"></iframe>
+
+<center>
+<br />
+<i>Plot of all active trips in-progress at 8:30 AM, Wednesday, September
+21st, 2016.  Trip paths are plotted as green lines, and the number of bikes
+taking the same path determines the thickness of the line.  Stations are
+plotted as circles.  The total number of bicycles arriving at and departing
+from each station is indicated by its size, and the net number of arrivals and
+departures is indicated by the stations' colours (blue for mostly departing,
+white for net zero, red for mostly arriving).</i>
+</center>
 
 <h1>20/4/2017 - Toronto City Sidewalk Inventory</h1>
 

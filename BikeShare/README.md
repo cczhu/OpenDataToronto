@@ -15,8 +15,7 @@ jupyter==1.0.0<br>
 numpy==1.15.1<br>
 pandas==0.23.4<br>
 requests==2.19.1<br>
-
-Dash App:
+plotly==2.0.12<br>
 
 Mapbox requries a public API key, which must be stored in a ``secrets.py`` file
 containing the following:
@@ -37,4 +36,3 @@ files.  On Bash, this can be done with:
 ```
 export BIKESHARE_FOLDER_PATH='<YOUR_FILE_PATH>'
 ```
- 
