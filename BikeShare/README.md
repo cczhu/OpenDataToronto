@@ -1,4 +1,4 @@
-#Toronto Bike Share DashApp Visualization
+# Toronto Bike Share DashApp Visualization
 
 This repo visualizes the [Q3 and Q4 bikeshare ride data](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#343faeaa-c920-57d6-6a75-969181b6cbde)
 available from the Toronto open data catalogue.
@@ -7,7 +7,7 @@ The `bike_stations_15_11_2018.csv` file was created from cleaned data from [the
 station information JSON feed](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#84045f23-7465-0892-8889-7b6f91049b29)
 accessible from the Toronto open data catalogue.
 
-#Requirements
+# Requirements
 
 Jupyter Notebook:
 
