@@ -28,7 +28,8 @@ account).  Weekdays see an increase in the number of member riders during
 rush hour, and weekends a general increase in leisure rides.</i>
 </center>
 
-<iframe width="600" height="500" frameborder="0" scrolling="no" src="//plot.ly/~ccfs/6.embed"></iframe>
+<br />
+<iframe width="640" height="500" frameborder="0" scrolling="no" src="//plot.ly/~ccfs/6.embed"></iframe>
 
 <center>
 <br />
@@ -40,6 +41,8 @@ from each station is indicated by its size, and the net number of arrivals and
 departures is indicated by the stations' colours (blue for mostly departing,
 white for net zero, red for mostly arriving).</i>
 </center>
+
+<br />
 
 <h1>20/4/2017 - Toronto City Sidewalk Inventory</h1>
 
