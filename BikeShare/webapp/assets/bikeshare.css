@@ -1,0 +1,100 @@
+body{
+    background-color: #434347;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    max-width: 1024px;
+    padding: 30px;
+}
+
+b, strong {
+    font-weight: 600;
+    color: #2dff57;
+}
+
+h1 {
+    color: #2dff57;
+    font-size: 5em;
+    font-weight: 600;
+    text-indent: -0.05em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+a {
+    color: #2dff57;
+}
+
+a:hover,
+a:focus {
+    color: #27db4b;
+}
+
+.description_div {
+    padding: 30px 30px 0px 0px;
+}
+
+.control_names {
+    padding: 1.5em 0 0.5em 0;
+    font-weight: 600;
+}
+
+/* Dash elements; see https://github.com/plotly/dash-core-components/tree/master/src/components/css
+and https://community.plot.ly/t/how-to-colorize-dropdown-field-in-dash/5648*/
+
+.rc-slider-track {
+    background-color: #2dff57;
+}
+
+.rc-slider-handle {
+    border: solid 2px #14ff43;
+}
+
+.rc-slider-handle:hover {
+    border-color: #2dff57;
+}
+
+.rc-slider-handle-active:active {
+    border-color: #2dff57;
+}
+
+.rc-slider-dot-active {
+    border-color: #14ff43;
+}
+
+.rc-slider-mark-text {
+    color: #fff;
+}
+.rc-slider-mark-text-active {
+    color: #999;
+}
+
+.VirtualizedSelectSelectedOption {
+    font-weight: bold;
+    color: #333;
+}
+
+.VirtualSelectGrid {
+    color: #000;
+}
+
+button {
+    height: 50px;
+    font-size: 14px;
+    border: 0px;
+    background-color: #14ff43;
+    color: #000;
+}
+
+button:hover,
+button:focus {
+    border: 0px;
+    background-color: #27db4b;
+}
+
+._dash-undo-redo {
+  display: none;
+}
