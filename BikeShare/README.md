@@ -9,15 +9,17 @@ accessible from the Toronto open data catalogue.
 
 # Requirements
 
-Jupyter Notebook:
+### Jupyter Notebook
 
-jupyter==1.0.0<br>
-numpy==1.15.1<br>
-pandas==0.23.4<br>
-requests==2.19.1<br>
-plotly==2.0.12<br>
+```bash
+jupyter==1.0.0
+numpy==1.15.1
+pandas==0.23.4
+requests==2.19.1
+plotly==2.0.12
+```
 
-Mapbox requries a public API key, which must be stored in a ``secrets.py`` file
+Mapbox requries a public API key, which must be stored in a `secrets.py` file
 containing the following:
 
 ```Python
