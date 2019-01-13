@@ -51,7 +51,6 @@ instructions describe how to deploy it on Amazon AWS.
 final section saves cleaned data tables into a local Postgres database.  Follow
 the instructions within the section to install and set up Postgres on an
 Ubuntu system.
-
 * Once finished, check Postgres status:
 
 ```bash
@@ -90,7 +89,8 @@ and attach it to a policy that gives it `AmazonRDSFullAccess` and
 IAM.
 
 ### 3. Create an EC2 instance
-* Under the default VPC, create a new security group for the EC2 instance.
+* Under the default VPC, create a new security group for the EC2 instance,
+opening the ports needed (eg. 8050) to run the dash app and nginx server.
 * Launch a t2.micro EC2 instance and associate it with the security group.
 * Create an Elastic IP and associate it with your instance.
 
@@ -100,35 +100,42 @@ IAM.
 
 ```bash
 virtualenv --no-site-packages -p python3 <YOUR_VENV_PATH>
+source <YOUR_VENV_PATH>/bin/activate
+```
+
+* Clone the webapp:
+
+```bash
+cd ~/
+git clone https://github.com/cczhu/OpenDataToronto.git
 ```
 
 * Install the Python package requirements:
 
 ```bash
-source <YOUR_VENV_PATH>/bin/activate
 cd OpenDataToronto/BikeShare/webapp
 pip install -r requirements.txt
 ```
 
 ### 5. Create RDS Postgres database
 
-* Follow [this tutorial](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
+* Follow [this tutorial](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html#CHAP_GettingStarted.Creating.PostgreSQL)
 to create a Postgres database on AWS RDS with the following settings:
- * DB engine version: 9.6.11-R1.
- * DB instance class: t2.micro
- * DB instance identifier: bikeshareapp
- * DB username: postgres
- * VPC: whichever VPC your EC2 instance is located in.
- * Public accessibility: yes
- * DB name: bikes
- * Disable deletion protection
+  * DB engine version: 9.6.11-R1.
+  * DB instance class: t2.micro
+  * DB instance identifier: bikeshareapp
+  * DB username: postgres
+  * VPC: whichever VPC your EC2 instance is located in.
+  * Public accessibility: yes
+  * DB name: bikes
+  * Disable deletion protection
 * If you have trouble with subnet groups, have a look at [this tutorial](
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html#USER_VPC.CreateDBSubnetGroup),
 and:
- * Go to `Subnet groups` in the RDS.
- * Find the subnet group associated with your VPC (for the default VPC, it
+  * Go to `Subnet groups` in the RDS.
+  * Find the subnet group associated with your VPC (for the default VPC, it
 should be `default`).
- * Add all available subnets in the VPC to the group.  If no subnets exist,
+  * Add all available subnets in the VPC to the group.  If no subnets exist,
  create new subnets.  To generate default subnets, refer to [this tutorial](
  https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html#create-default-subnet).
 * Once finished, test your endpoint:
@@ -139,9 +146,11 @@ psql --host=<YOUR_ENDPOINT> --port=<YOUR_PORT> --username=postgres --password --
 
 ### 6. Upload local tables to RDS database
 
-* This is based on [this tutorial](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html)
-on AWS.  The reason we're not directly writing from pandas to the remote Postgres
+We'll dump our local Postgres table to a file, then upload that file to the RDS
+following [this tutorial](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html).
+The reason we're not directly writing from pandas to the remote Postgres
 table is that it's [prohibitively slow](https://stackoverflow.com/q/30286775).
+
 * Save the local `bikes` database as a .sql file:
 
 ```bash
@@ -162,7 +171,7 @@ SELECT * FROM bike_stations LIMIT 10;
 SELECT * FROM bike_trips LIMIT 10;
 ```
 
-#### 7. Restrict RDS database to only connecting with the EC2 instance
+#### 7. Restrict RDS database to only connect with the EC2 instance
 
 * Create a new security group that restricts access to only the EC2's security
 group, and assign it to the RDS.  Also, deselect `public accessibility` in the
@@ -189,30 +198,37 @@ bikes_from_sql.head(n=10)
 
 * The app obtain plotly, Mapbox, and Postgres connection API keys, usernames
 and host information either by importing `secrets.py` file or, failing that,
-reading in environmental variables.  To use a file in your EC2 instance, make
-sure `secrets.py` is in your Python PATH and has the same format as the
-`secrets.py` for the Jupyter Notebook (see above).  To use environmental
-variables, set them eg. with `export PLOTLY_USER=<YOUR_USERNAME>`.  You'll need
-to set:
- * `PLOTLY_USER`: plotly account username
- * `PLOTLY_API`: plotly account API key
- * `POSTGRES_USER`: Postgres database username
- * `POSTGRES_PASSWORD`: Postgres database password
- * `POSTGRES_HOST`: Postgres hostname (defaults to 'localhost' if not set)
- * `POSTGRES_PORT`: Postgres port number (defaults to '5432' if not set)
- * `MAPBOX_TOKEN`: Mapbox API access token
+reading in environmental variables.  To use a file, make sure `secrets.py` is
+in your Python PATH and has the same format as the `secrets.py` for the
+Jupyter Notebook (see above).  To use environmental variables, set them eg.
+with `export PLOTLY_USER=<YOUR_USERNAME>`.  For either, you'll need to set:
+  * `PLOTLY_USER`: plotly account username
+  * `PLOTLY_API`: plotly account API key
+  * `POSTGRES_USER`: Postgres database username
+  * `POSTGRES_PASSWORD`: Postgres database password
+  * `POSTGRES_HOST`: Postgres hostname (defaults to 'localhost' if not set)
+  * `POSTGRES_PORT`: Postgres port number (defaults to '5432' if not set)
+  * `MAPBOX_TOKEN`: Mapbox API access token
 
 ### 9. Check the app
 
-* Once all variables are set, check that the webapp works.  First, change the
-line `app.run_server(debug=True)` to the one below:
+* Once all variables are set, check that the webapp works.  First, go to
+`OpenDataToronto/BikeShare/` and modify the last two lines in `run_webapp.py`
+to resemble:
 
 ```python
+# app.run_server(debug=True)
 app.run_server(host='0.0.0.0', debug=True)
 ```
 
-* Finally, run `python app.py` and use your web browser to inspect the EC2
-public IP with port 8050.
+* Then, run:
+
+```bash
+python run_webapp.py
+```
+
+* Use your web browser to check the EC2 public IP with port 8050 for the right
+output.
 
 ### 10. Install the gunicorn webserver and run the app
 
@@ -231,7 +247,7 @@ sudo touch /etc/nginx/sites-available/application
 sudo ln -s /etc/nginx/sites-available/application /etc/nginx/sites-enabled/application
 ```
 
-* Modify the application file to look like the block below:
+* Modify the application file to look like the `server` block below:
 
 ```bash
 sudo vim /etc/nginx/sites-enabled/application
@@ -240,12 +256,12 @@ sudo vim /etc/nginx/sites-enabled/application
 ```
 server {
     location / {
-        proxy_pass http://localhost:8050;
+        proxy_pass http://localhost:8000;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
     }
     location /assets {
-        alias /home/ubuntu/OpenDataToronto/BikeShare/webapp/assets/;
+        alias <YOUR_HOME>/OpenDataToronto/BikeShare/webapp/assets/;
     }
 }
 ```
@@ -267,3 +283,22 @@ pip install gunicorn
 ```bash
 echo '/home/ubuntu/OpenDataToronto/BikeShare/' > /home/ubuntu/pythonenv/biketracker/lib/python3.5/site-packages/dashapp.pth
 ```
+
+* Start gunicorn:
+
+```bash
+gunicorn webapp:app.server -D
+```
+
+* To kill gunicorn:
+
+```bash
+pkill gunicorn
+```
+
+### 11. Shut the app down
+
+* Remember that when shutting the app down, you need to remove:
+  * The EC2 instance
+  * The Elastic IP
+  * The RDS instance

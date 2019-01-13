@@ -13,6 +13,9 @@ captures (anonymized) trips taken with the Toronto bikeshare system between July
 1st and December 31st, 2016.  The data includes the trip start and end times,
 duration, and origin and destination stations.
 
+The visualization is deployed on [Amazon AWS](http://18.191.33.162) using Dash.
+Click on the link below to see more.
+
 <p align="center">
     <a href="images/toronto_bikeshare_hours.png">
     <img border="0" alt="OTF" src="images/toronto_bikeshare_hours.png" width="600" height="491">
@@ -27,22 +30,6 @@ bikeshare members and casual riders (those without a bikeshare app
 account).  Weekdays see an increase in the number of member riders during
 rush hour, and weekends a general increase in leisure rides.</i>
 </center>
-
-<br />
-<iframe width="640" height="500" frameborder="0" scrolling="no" src="//plot.ly/~ccfs/6.embed"></iframe>
-
-<center>
-<br />
-<i>Plot of all active trips in-progress at 8:30 AM, Wednesday, September
-21st, 2016.  Trip paths are plotted as green lines, and the number of bikes
-taking the same path determines the thickness of the line.  Stations are
-plotted as circles.  The total number of bicycles arriving at and departing
-from each station is indicated by its size, and the net number of arrivals and
-departures is indicated by the stations' colours (blue for mostly departing,
-white for net zero, red for mostly arriving).</i>
-</center>
-
-<br />
 
 <h1>20/4/2017 - Toronto City Sidewalk Inventory</h1>
 
