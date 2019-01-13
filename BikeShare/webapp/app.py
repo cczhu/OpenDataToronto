@@ -12,11 +12,38 @@ import psycopg2
 from dash.dependencies import Input, Output, State
 import datetime
 
-import secrets
+# Try to obtain login credentials and API keys by importing `secrets`; if this
+# doesn't work, try obtaining them from environmental variables.
+try:
+    import secrets
+except ImportError:
+    import os
+    PLOTLY_USER = os.environ.get('PLOTLY_USER')
+    PLOTLY_API = os.environ.get('PLOTLY_API')
+    MAPBOX_TOKEN = os.environ.get('MAPBOX_TOKEN')
+    POSTGRES_USER = os.environ.get('POSTGRES_USER')
+    POSTGRES_PASSWORD = os.environ.get('POSTGRES_PASSWORD')
+    POSTGRES_HOST = os.environ.get('POSTGRES_HOST') or 'localhost'
+    POSTGRES_PORT = os.environ.get('POSTGRES_PORT') or '5432'
+else:
+    PLOTLY_USER = secrets.PLOTLY_USER
+    PLOTLY_API = secrets.PLOTLY_API
+    MAPBOX_TOKEN = secrets.MAPBOX_TOKEN
+    try:
+        POSTGRES_USER = secrets.POSTGRES_USER
+    except AttributeError:
+        POSTGRES_USER = 'postgres'
+    POSTGRES_PASSWORD = secrets.POSTGRES_PASSWORD
+    try:
+        POSTGRES_HOST = secrets.POSTGRES_HOST
+        POSTGRES_PORT = secrets.POSTGRES_PORT
+    except AttributeError:
+        POSTGRES_HOST = 'localhost'
+        POSTGRES_PORT = '5432'
 
 import plotly
-plotly.tools.set_credentials_file(username=secrets.PLOTLY_USER,
-                                  api_key=secrets.PLOTLY_API)
+plotly.tools.set_credentials_file(username=PLOTLY_USER,
+                                  api_key=PLOTLY_API)
 from plotly import graph_objs as go
 
 from matplotlib import colors as mpl_colors
@@ -34,14 +61,14 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 # Create connection-load bike stations dataframe.
-con = psycopg2.connect(database='bikes', user='postgres',
-                       password=secrets.POSTGRES_PASSWORD,
-                       host='localhost', port='5432')
+con = psycopg2.connect(database='bikes', user=POSTGRES_USER,
+                       password=POSTGRES_PASSWORD,
+                       host=POSTGRES_HOST, port=POSTGRES_PORT)
 
 bike_stations = pd.read_sql("SELECT * FROM bike_stations;", con)
 
 
-mdtext = """# BikeTrack
+mdtext = """# BikeTracker
 ## Visualizing Toronto BikeShare Rides From Q3 - Q4 2016
 
 The Toronto [Q3 and Q4 bikeshare ridedata](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#343faeaa-c920-57d6-6a75-969181b6cbde)
@@ -278,7 +305,7 @@ def make_ride_map(timestamp):
         height=600,
         hovermode='closest',
         mapbox=dict(
-            accesstoken=secrets.MAPBOX_TOKEN,
+            accesstoken=MAPBOX_TOKEN,
             bearing=0,
             center=dict(
                 lat=43.6532,

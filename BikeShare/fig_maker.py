@@ -89,4 +89,4 @@ plt.xlim([0, 12])
 plt.ylim([0, 2])
 plt.axis('off')
 
-fig.savefig('legend.png', dpi=200, facecolor='#434347')
+fig.savefig('webapp/legend.png', dpi=200, facecolor='#434347')

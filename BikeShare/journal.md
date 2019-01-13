@@ -39,65 +39,28 @@ into the app to create the legend.  The legend is static, so it's unnecessary.
 
 * Added matplotlib script to generate legend figure, and added legend to app.
 
-## Deployment Notes
+### 10 Jan. 2019
 
-### Create a Production Virtualenv
-* Create a virtualenv:
-
-```bash
-virtualenv --no-site-packages -p python3 ~/pythonenv/bikeshare/
-```
-
-* Install the Python package requirements:
+* [Downloaded Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/),
+and made sure it's working.  To give [non-root users access](
+https://docs.docker.com/install/linux/linux-postinstall/), do:
 
 ```bash
-pip install numpy==1.15.1 pandas==0.23.4 tables==3.4.4 SQLAlchemy==1.2.11 plotly==3.4.1 psycopg2==2.7.5 matplotlib==3.0.0 dash==0.34.0 dash-html-components==0.13.4 dash-core-components==0.42.0
+sudo groupadd docker
+sudo usermod -aG docker $USER
 ```
 
-* Test that the web app works.
+* Decided not to use Docker, however.  While it's definitely possible to connect
+an [app container instance to an Nginx one](https://sladkovm.github.io/webdev/2017/10/16/Deploying-Plotly-Dash-in-a-Docker-Container-on-Digitital-Ocean.html),
+connecting these to an RDS server [is complicated](https://stackoverflow.com/questions/32893876/accessing-rds-from-within-a-docker-container-not-getting-through-security-group).
 
-```bash
-export PYTHONPATH='<PATH TO YOUR SECRETS>'
-python app.py
-```
+### 12 Jan 2019
 
-### Check PostgreSQL Database
+* Successfully deployed a small app following [this tutorial](
+https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80),
+but elected against using EBS since there's no way to specify the EC2 resources
+to be used (since it's elastic).
 
-* The ``BikeShare DashApp Data Munging.ipynb`` notebook cleans raw data, and
-contains a cell which saves the cleaned data as a Postgres table.  Uncomment
-this cell and run the entire notebook.
+### 13 Jan 2019
 
-* Check Postgres status:
-
-```bash
-sudo service postgresql status
-```
-
-* Sign in as as user `postgres` and lanch interactive Postgres terminal
-
-```bash
-su postgres
-psql
-```
-
-* Connect the `bikes` database, and check that both `bike_stations` and
-`bike_trips` are valid
-
-```bash
-\c bikes
-```
-
-```sql
-SELECT * FROM bike_stations LIMIT 10;
-```
-
-```sql
-SELECT * FROM bike_trips LIMIT 10;
-```
-
-### AWS Setup
-
-* Log in to AWS.  If one doesn't already exist, [create an IAM
-account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console)
-and attach it to a policy that gives it `AmazonRDSFullAccess` and `AmazonEC2FullAccess`.
-Then, log in using the IAM.
+* Deployed app on AWS.
