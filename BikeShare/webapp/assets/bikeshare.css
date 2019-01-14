@@ -3,8 +3,6 @@ body{
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    max-width: 1024px;
-    padding: 30px;
 }
 
 b, strong {
@@ -31,6 +29,12 @@ a {
 a:hover,
 a:focus {
     color: #27db4b;
+}
+
+.primeDiv {
+    max-width: 1024px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
 .description_div {

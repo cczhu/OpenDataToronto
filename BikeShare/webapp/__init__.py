@@ -111,11 +111,11 @@ app.layout = html.Div([
     html.Div(dcc.Graph(id='map-graph'),
              style={"padding-top": "20px"}),
     html.Div(html.Img(src=('https://raw.githubusercontent.com/cczhu/'
-                           'OpenDataToronto/bikeshare/BikeShare/'
+                           'OpenDataToronto/master/BikeShare/'
                            'webapp/legend.png'),
                       style={'width': '100%'}),
              className='row legend')
-])
+], className="primeDiv")
 
 # Circular import, so needs to be defined after `app` is.
 from . import functions
