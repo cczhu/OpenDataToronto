@@ -1,5 +1,7 @@
 # Toronto Bike Share DashApp Visualization
 
+[Data Munging ipynb](https://nbviewer.jupyter.org/github/cczhu/OpenDataToronto/blob/master/BikeShare/BikeShare%20DashApp%20Data%20Munging.ipynb)
+
 This repo visualizes the [Q3 and Q4 bikeshare ride data](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#343faeaa-c920-57d6-6a75-969181b6cbde)
 available from the Toronto open data catalogue.
 

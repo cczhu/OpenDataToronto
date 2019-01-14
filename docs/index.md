@@ -13,8 +13,16 @@ captures (anonymized) trips taken with the Toronto bikeshare system between July
 1st and December 31st, 2016.  The data includes the trip start and end times,
 duration, and origin and destination stations.
 
-The visualization is deployed on [Amazon AWS](http://18.191.33.162) using Dash.
-Click on the link below to see more.
+The visualization is deployed on [Amazon AWS](http://18.191.33.162) using
+[Dash](https://plot.ly/products/dash/).  Click on the link below to see more.
+
+<br />
+<p align="center">
+<a href="http://18.191.33.162">
+<img border="0" src="biketracker.jpg" width="75%">
+</a>
+</p>
+<br />
 
 <p align="center">
     <a href="images/toronto_bikeshare_hours.png">
