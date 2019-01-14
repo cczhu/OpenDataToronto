@@ -228,7 +228,7 @@ preset_date_picker_dict = {
     "wkdy": datetime.datetime(2016, 9, 15),
     "wknd": datetime.datetime(2016, 9, 10),
     "civic": datetime.datetime(2016, 8, 1),
-    "nuit": datetime.datetime(2016, 10, 1),
+    "nuit": datetime.datetime(2016, 10, 2),
 }
 
 preset_hour_slider_dict = {
